@@ -23,3 +23,12 @@
   min-height: 200px;
   padding: 20px;
 }
+
+.content-header {
+  min-height: 200px;
+  width: 100%;
+  background-image: url("../images/cats.jpg");
+  background-size: cover;
+  
+  /* background-color: black; */
+}
