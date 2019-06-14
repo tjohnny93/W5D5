@@ -25,10 +25,24 @@
 }
 
 .content-header {
+  position: relative;
   min-height: 200px;
   width: 100%;
   background-image: url("../images/cats.jpg");
   background-size: cover;
-  
-  /* background-color: black; */
+}
+
+.content-header h1 {
+  position: absolute;
+  bottom: 20px; 
+  left:50%;  
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: #000 0 0 10px;
+}
+
+.content-button {
+  /* position: absolute bottom; */
 }
